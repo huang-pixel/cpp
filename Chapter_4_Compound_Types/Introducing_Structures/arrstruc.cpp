@@ -16,6 +16,6 @@ int main()
     };
     cout << "The guests " << guests[0].name << " and " << guests[1].name
          << "\nhave a combined volume of "
-         << guests[0].volume + guests[1].volume << " cubic feet.\n";
+         << guests[0].volume + (guests + 1)->volume << " cubic feet.\n";
     return 0;
 }
